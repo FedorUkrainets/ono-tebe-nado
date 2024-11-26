@@ -9,6 +9,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.header_menu{
+    margin-top: 26px;
+    margin-left: 10px;
+}
+
 .header__links-list {
     width: 400px;
     display: flex;
@@ -32,12 +37,14 @@
 .header__logo {
     width: 148px;
     height: 105px;
+    margin-top: 10px;
 }
 
-address {
+.header__address {
     font-family: Raleway, sans-serif;
     font-style: normal;
-    margin-left: 79px;
+    margin-left: 97px;
+margin-top: 30px;
 }
 
 .cover {
@@ -77,6 +84,7 @@ address {
 .aligned-text {
     font-size: 100px;
     letter-spacing: 30px;
+    display: block;
 }
 
 .aligned-text_left {
@@ -103,7 +111,7 @@ address {
 
 /* текст и кнопка под заголовком*/
 .cover__description {
-    padding: 112px 6px 0 0;
+    padding: 136px 0 0 25px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -133,7 +141,7 @@ address {
 
 /*ЛОТЫ*/
 .lots {
-    margin-top: 185px;
+    margin-top: 179px;
     padding: 0 20px;
 }
 
@@ -141,7 +149,8 @@ address {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 0 0 30px 40px;
+    padding: 0 0 10px 40px;
+    margin-bottom: 18px;
 }
 
 .lots_card-list {
@@ -207,7 +216,7 @@ address {
     font-size: 20px;
     font-weight: 400;
     display: block;
-    margin: 20px 0 0 40px
+    margin: 26px 0 0 40px
 }
 
 .about {
@@ -226,6 +235,7 @@ address {
     height: 240px;
     width: 240px;
     border-radius: 50%;
+    margin-left: 20px;
 }
 
 .about_logo {
@@ -241,11 +251,11 @@ address {
 
 .about_title {
     font-size: 40px;
-    padding: 85px 0 100px 15px;
+    padding: 98px 0 100px 0;
+    text-transform: uppercase;
 }
 
 .about_text {
-    padding-top: 30px;
     font-size: 20px;
     font-weight: 400;
     display: flex;
@@ -255,20 +265,21 @@ address {
 }
 
 .footer {
-    margin-top: 170px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 1000px;
-}
-
-.footer_menu {
+    margin-top: 184px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 200px 1fr;
+    margin-bottom: 88px;
+    height: 98px;
 }
 
-.footer_adress {
-    font-size: 18px
+.footer__address {
+    font-size: 18px;
+    font-style: normal;
+    margin: 21px 0 0 50px
+}
+
+.footer_nav {
+    margin-top: 20px;
 }
 
 .footer_menu-list {
@@ -286,9 +297,12 @@ address {
 
 .footer_social-list {
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 48px;
+    align-items: center;
+    margin-right: 49px;
+    margin-bottom: 13px;
 
 }
 
