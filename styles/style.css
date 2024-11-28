@@ -10,8 +10,8 @@
 }
 
 .header_menu {
-    margin-top: 26px;
-    margin-left: 10px;
+    margin-top: 14px;
+    margin-left: 14px;
 }
 
 .header__links-list {
@@ -35,21 +35,22 @@
 }
 
 .header__logo {
-    width: 148px;
+    width: 129px;
     height: 105px;
-    margin-top: 10px;
+    margin-top: 19px;
 }
 
 .header__address {
     font-family: Raleway, sans-serif;
     font-style: normal;
     margin-left: 97px;
-margin-top: 30px;
+    margin-top: 9px;
+    line-height: 24px;
 }
 
 .cover {
     min-height: 757px;
-    margin-top: 100px;
+    margin-top: 90px;
     background-image: url(../images/cover.jpg);
     color: white;
     position: relative;
@@ -269,13 +270,13 @@ margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
     margin-bottom: 88px;
-    height: 98px;
 }
 
 .footer__address {
     font-size: 18px;
     font-style: normal;
-    margin: 21px 0 0 50px
+    margin: 20px 0 0 50px;
+    line-height: 24px;
 }
 
 .footer_nav {
