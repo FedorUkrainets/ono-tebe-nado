@@ -275,12 +275,8 @@
 .footer__address {
     font-size: 18px;
     font-style: normal;
-    margin: 20px 0 0 50px;
+    margin: 0 0 0 50px;
     line-height: 24px;
-}
-
-.footer_nav {
-    margin-top: 20px;
 }
 
 .footer_menu-list {
@@ -301,7 +297,6 @@
     display: flex;
     justify-content: flex-end;
     gap: 48px;
-    align-items: center;
     margin-right: 49px;
     margin-bottom: 13px;
 
